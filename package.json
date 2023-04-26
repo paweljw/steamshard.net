@@ -1,0 +1,12 @@
+{
+  "name": "steamshard.net",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+	"build": "npx tailwindcss -i ./index.css -o ./output.css"
+  } 
+}
